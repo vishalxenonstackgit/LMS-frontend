@@ -1,0 +1,54 @@
+#account-check{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+/* left side */
+#account-check #content{
+    width:50%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 30%;
+}
+
+#account-check #content h1{
+    font-size: xxx-large;
+}
+
+#account-check #content .btn{
+    padding: 10px;
+    background-color: transparent;
+    color: #8C489F;
+    border: 2px solid #8C489F;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#account-check #content .btn:hover{
+    background-color: #8C489F;
+    color: white;
+   
+}
+
+/* right side */
+#account-check #image{
+    width:50%
+}
+
+#account-check #image img{
+    width:100%;
+    height:100vh
+}
+
+@media screen and (max-width:670px) {
+    #account-check #image{
+        display: none;
+    }
+    #account-check #content{
+        width:100%;
+    }
+}

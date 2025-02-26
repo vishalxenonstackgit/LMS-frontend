@@ -1,0 +1,131 @@
+#owner-dashboard #library{
+    border:2px solid #8C489F;
+    margin: 10px;
+    width: 200px;
+    color: #8C489F;
+}
+
+#owner-dashboard #my-admins{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   border-top: 1px solid #8C489F;
+}
+
+#owner-dashboard #my-admins #add-admin{
+    border: 2px solid #8C489F;
+    background-color: transparent;
+    color: #8C489F;
+    font-size: medium;
+    padding: 3px 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#owner-dashboard #my-admins #add-admin:hover{
+    background-color: #8C489F;
+    color: white;
+    box-shadow: 2px 2px 4px  #8C489F;
+}
+
+#owner-dashboard #add-admin-form{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+#owner-dashboard #add-admin-form .signup-fields{
+    width:250px;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid #8C489F;
+    border-radius: 3px;
+}
+
+#owner-dashboard #add-admin-form .btn{
+    padding: 5px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #8C489F;
+    color: white;
+    cursor: pointer;
+}
+
+#owner-dashboard table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 90%;
+    margin: 20px 10px;
+}
+
+#owner-dashboard table thead th{
+    border: 1px solid #8C489F;
+    padding: 6px 10px;
+    background-color: #8C489F;
+    color: #F1F0FF;
+}
+
+#owner-dashboard table tbody tr td{
+    border: 1px solid #8C489F;
+    padding: 6px 10px;
+    color: #443266;
+    font-weight: bold;
+}
+
+#owner-dashboard table tbody tr td button{
+    border: 1px solid #8C489F;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#owner-dashboard table tbody tr td button:hover{
+    box-shadow: 2px 2px 4px #8C489F;
+    
+}
+
+#owner-dashboard #logout{
+    padding: 5px 8px;
+    border: none;
+    background-color: #8C489F;
+    color: white;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+#owner-dashboard #logout:hover{
+    background-color:#443266;
+}
+
+@media screen and (max-width:600px) {
+    #owner-dashboard table{
+        font-size: small;
+    }
+   
+}
+
+@media screen and (max-width:450px) {
+    #owner-dashboard table{
+        font-size: small;
+    }
+    #owner-dashboard h1{
+        font-size: 20px;
+    }
+    #owner-dashboard p{
+        font-size: small;
+    }
+    #owner-dashboard #library h2{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    #owner-dashboard table{
+        font-size: 10px;
+    }
+    #owner-dashboard table tbody tr td button img{
+        width: 15px;
+    }
+}

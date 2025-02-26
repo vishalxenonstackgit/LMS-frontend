@@ -1,0 +1,77 @@
+#admin-signup{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+/* left side */
+#admin-signup #content{
+    width:50%;
+    height: 100vh;
+    padding: 50px 10px 10px 30px;
+}
+
+#admin-signup #content h1{
+    font-size: xxx-large;
+    text-shadow: 4px 4px 18px #C3C3E5;
+    color:#443266
+}
+
+#admin-signup #content .signup-fields{
+    width:50%;
+    padding: 10px 20px;
+    margin-top:20px;
+    border: 2px solid #C3C3E5;
+    font-size: medium;
+}
+
+#admin-signup #content .btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    margin-top:20px;
+    background-color: #C3C3E5;
+    border: none;
+    border-radius: 3px;
+    font-size: medium;
+}
+
+#admin-signup #content .btn:hover{
+    background-color:#443266;
+    color: white;
+    cursor: pointer;
+}
+
+/* right side */
+#admin-signup #image{
+    width:50%
+}
+
+#admin-signup #image img{
+    width:100%;
+    height:100vh
+}
+
+@media screen and (max-width:1000px) {
+    #admin-signup #content .signup-fields{
+        width:80%;
+    }
+}
+
+@media screen and (max-width:634px) {
+    #admin-signup #image{
+        display: none;
+    }
+
+    #admin-signup #content{
+        width:100%;
+        padding: 20px
+    }
+}
+
+@media screen and (max-width:350px) {
+    #admin-signup #content h1{
+        font-size:xx-large;
+    }
+}

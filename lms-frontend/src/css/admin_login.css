@@ -1,0 +1,72 @@
+#admin-login{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+/* left side */
+#admin-login #content{
+    width:50%;
+    height: 100vh;
+    padding: 70px 10px 10px 30px;
+}
+
+#admin-login #content h1{
+    font-size: xxx-large;
+    text-shadow: 4px 4px 18px #C3C3E5;
+    color:#443266
+}
+
+#admin-login #content .signup-fields{
+    width:50%;
+    padding: 10px 20px;
+    margin-top:20px;
+    border: 2px solid #443266;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+#admin-login #content .btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    margin-top:20px;
+    background-color: #443266;
+    border: none;
+    border-radius: 3px;
+    font-size: medium;
+    color:white
+}
+
+#admin-login #content .btn:hover{
+    background-color:#5d4687;
+    color: white;
+    cursor: pointer;
+}
+
+/* right side */
+#admin-login #image{
+    width:50%
+}
+
+#admin-login #image img{
+    width:100%;
+    height:100vh
+}
+
+
+@media screen and (max-width:980px) {
+    #admin-login #content .signup-fields{
+    width:80%;
+}
+}
+
+@media screen and (max-width:980px) {
+    #admin-login #image{
+        display: none;
+    }
+    #admin-login #content{
+        width:100%;
+    }
+}

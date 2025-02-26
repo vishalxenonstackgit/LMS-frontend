@@ -1,0 +1,101 @@
+#issues{
+    padding: 20px 10px 10px 30px;
+    overflow-x: scroll;
+}
+
+#issues table{
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#issues table thead th{
+    background-color: #443266;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    border-right:1px solid black;
+    border-left:1px solid black
+}
+
+#issues table tbody td{
+    background-color: #C3C3E5;
+    text-align: center;
+    padding: 5px;
+    border:1px solid #443266;
+}
+
+#issues table tbody #accept{
+    background-color: rgb(105, 146, 45);
+    border: none;
+    color: white;
+    border-radius: 2px;
+    padding: 3px 5px;
+    margin: 4px 2px;
+}
+
+#issues table tbody #reject{
+    background-color: rgb(180, 45, 45);
+    border: none;
+    color: white;
+    border-radius: 2px;
+    padding: 3px 5px;
+}
+
+#issues table tbody #accept:hover{
+    background-color: rgb(128, 178, 54);
+   
+}
+
+#issues table tbody #reject:hover{
+    background-color: rgb(217, 75, 62)
+   
+}
+
+@media screen and (max-width:1212px) {
+    #issues table{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:1091px) {
+    #issues table{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:710px) {
+    #issues table{
+        font-size: 11px;
+    }
+    #issues{
+        padding: 10px 5px 7px 10px;
+    }
+}
+
+@media screen and (max-width:510px) {
+    #issues table{
+        font-size: 8px;
+    }
+    #issues table thead th{
+        padding: 5px;
+    
+    }
+    
+    #issues table tbody td{
+        padding: 5px;
+    }
+
+    #issues table tbody #accept{
+        padding: 2px 3px;
+        font-size: x-small;
+        margin:2px;
+    }
+    
+    #issues table tbody #reject{
+        padding: 2px 3px;
+        font-size: x-small;
+        margin:2px;
+    }
+}
